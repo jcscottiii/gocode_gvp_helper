@@ -1,8 +1,9 @@
+## Purpose
 Purpose of this script is to still easily use tools like GVP to switch your GO environment variables easily but with this script update your gocode lib-path accordingly. This way you can still get auto completion working as you switch around development envs.
 
 This script will read your newly set GO environment variables and then call gocode setlib appropriately.
 
-Workflow:
+## Workflow:
 
 1) Use gvp to set your local GO environment variables
 
@@ -12,7 +13,7 @@ $ source gvp in
 
 $ gocode_gvp_helper
 
-Instructions:
+## Instructions:
 
 1) chmod the file to execute permissions. (chmod 711)
 
@@ -25,5 +26,5 @@ Optional step but helpful
 
 Add the gocode_gvp_helper to your $PATH
 
-TODOS:
+## TODOS:
 Allow one to set and retain the gocode_bin path via command line instead of modifying the python script itself.
